@@ -1,0 +1,43 @@
+.image_container {
+  position: relative;
+  min-height: 250px;
+}
+
+.promotion_wrapper {
+  background-color: salmon;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.promotion_text {
+  color: white;
+  font-size: 0.6rem;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.description {
+  padding: 20px;
+}
+
+.name {
+  font-size: 0.7rem;
+}
+
+.price {
+  font-weight: bold;
+  display: inline;
+  padding-right: 5px;
+  font-size: 0.9rem;
+}
+
+.price_was {
+  color: red;
+  display: inline;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+}

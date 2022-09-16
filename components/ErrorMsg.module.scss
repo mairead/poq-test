@@ -1,0 +1,11 @@
+.flashbox {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: darksalmon;
+  opacity: 1;
+
+  &--hidden {
+    opacity: 0;
+    transition: all 250ms linear 2s;
+  }
+}

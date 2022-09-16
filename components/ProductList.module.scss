@@ -1,0 +1,28 @@
+.list {
+  list-style: none;
+  display: grid;
+  border-top: rgb(237, 237, 237) 2px solid;
+  background-color: rgba(232, 233, 233, 0.523);
+  margin: 0 50px;
+  padding: 20px;
+  gap: 20px;
+
+  --grid-layout-gap: 20px;
+  --grid-column-count: 8;
+  --grid-item--min-width: 155px;
+
+  --gap-count: calc(var(--grid-column-count) - 1);
+  --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+  --grid-item--max-width: calc(
+    (100% - var(--total-gap-width)) / var(--grid-column-count)
+  );
+
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
+  );
+}
+
+.item {
+  background: white;
+}

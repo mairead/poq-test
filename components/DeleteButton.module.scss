@@ -1,0 +1,15 @@
+.container {
+  padding: 0 0 20px 70px;
+}
+
+.button {
+  padding: 8px 24px;
+  border-radius: 3px;
+  background: rgb(125, 55, 187);
+  color: white;
+  border: 0;
+  font-size: 0.8rem;
+  &:hover {
+    background: rgb(67, 23, 155);
+  }
+}

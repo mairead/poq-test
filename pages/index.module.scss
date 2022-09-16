@@ -1,0 +1,14 @@
+@import "mixins";
+
+.container {
+  @include center-align;
+  height: 100vh;
+}
+
+.main {
+  @include center-align;
+  padding: 5rem 0;
+  flex: 1;
+}
+
+
